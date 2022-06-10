@@ -1071,3 +1071,9 @@ fold_1/Steal_218.wav,Steal,3,24,180,square,2704,23.8,0.7
 fold_1/Steal_219.wav,Steal,3,24,180,square,2704,25.8,0.7
 fold_1/Steal_220.wav,Steal,3,24,180,square,2704,27.8,0.7
 fold_1/Steal_221.wav,Steal,3,24,180,square,2704,29.8,0.7
+fold_1_test/Aluminium_rectangle_6mm.wav,Aluminium,1,NaN,NaN,rectangle,2016,NaN,6
+fold_1_test/Brass_thick_Rectangle.wav,Brass,0,NaN,NaN,rectangle,5500,NaN,9
+fold_1_test/Copper_6mm_rectangle.wav,Copper,2,NaN,NaN,rectangle,3720,NaN,0.6
+fold_1_test/copper_short.wav,Copper,2,NaN,NaN,rectangle,3720,NaN,0.6
+fold_1_test/small_brass_square.wav,Brass,0,NaN,NaN,square,2500,NaN,0.7
+fold_1_test/Stainless_steel_rectangle.wav,Steal,3,NaN,NaN,rectangle,3160,NaN,2
