@@ -14,4 +14,4 @@ source /etc/profile
 module load cuda/8.0
 
 # Run your program (replace this with your program)
-srun jupyter nbconvert --to notebook --execute ml_neptuneAI.ipynb
+srun jupyter nbconvert --to notebook --execute ml_neptuneAI_Adamax.ipynb
