@@ -1,0 +1,44 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "Untitled"}, "version": 1}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "ncc1"}, "version": 3}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 4}
+{"obj": {"type": "ClearStringLog", "path": ["monitoring", "stdout"]}, "version": 5}
+{"obj": {"type": "ClearStringLog", "path": ["monitoring", "stderr"]}, "version": 6}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "cpu"], "min": 0.0, "max": 100.0, "unit": "%"}, "version": 7}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "cpu"]}, "version": 8}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "memory"], "min": 0.0, "max": 15.319332122802734, "unit": "GB"}, "version": 9}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "memory"]}, "version": 10}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "", "step": null, "ts": 1659907654.2042341}]}, "version": 11}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 24.3, "step": null, "ts": 1659907654.196217}]}, "version": 12}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Remember to stop your run once you\u2019ve finished logging your metadata (https://docs.neptune.ai/api-reference/run#.stop). It will be stopped automatically only when the notebook kernel/interactive console is terminated.\n", "step": null, "ts": 1659907654.259464}]}, "version": 13}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 14.317981719970703, "step": null, "ts": 1659907654.196217}]}, "version": 14}
+{"obj": {"type": "AssignInt", "path": ["parameters", "Num. Readings"], "value": 2348}, "version": 15}
+{"obj": {"type": "AssignInt", "path": ["parameters", "Num. Types"], "value": 5}, "version": 16}
+{"obj": {"type": "AssignString", "path": ["parameters", "Type of ML"], "value": "CNN Classification"}, "version": 17}
+{"obj": {"type": "AssignInt", "path": ["parameters", "n_epochs"], "value": 1}, "version": 18}
+{"obj": {"type": "AssignString", "path": ["parameters", "Optimizer"], "value": "Adam"}, "version": 19}
+{"obj": {"type": "AssignInt", "path": ["parameters", "Batch Size"], "value": 16}, "version": 20}
+{"obj": {"type": "AssignString", "path": ["parameters", "Kernal Size"], "value": "(5, 3, 3, 3)"}, "version": 21}
+{"obj": {"type": "AssignString", "path": ["parameters", "Var"], "value": "mel_non-aug_confusion_matrix"}, "version": 22}
+{"obj": {"type": "AssignString", "path": ["parameters", "Owner"], "value": "Freya"}, "version": 23}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "/home2/qlpd78/anaconda3/lib/python3.9/site-packages/torchaudio/functional/functional.py:507: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (128) may be set too high. Or, the value for `n_freqs` (513) may be set too low.\n  warnings.warn(\n", "step": null, "ts": 1659907654.8060348}]}, "version": 24}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 68.8, "step": null, "ts": 1659907664.2721326}]}, "version": 25}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 14.790752410888672, "step": null, "ts": 1659907664.2721326}]}, "version": 26}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 69.1, "step": null, "ts": 1659907674.2850146}]}, "version": 27}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 14.539020538330078, "step": null, "ts": 1659907674.2850146}]}, "version": 28}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 69.5, "step": null, "ts": 1659907684.2934783}]}, "version": 29}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 14.706562042236328, "step": null, "ts": 1659907684.2934783}]}, "version": 30}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 69.9, "step": null, "ts": 1659907694.2986705}]}, "version": 31}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 14.547103881835938, "step": null, "ts": 1659907694.2986705}]}, "version": 32}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 71.1, "step": null, "ts": 1659907704.363007}]}, "version": 33}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 14.364646911621094, "step": null, "ts": 1659907704.363007}]}, "version": 34}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Accuracy: 0.44, Total items: 470", "step": null, "ts": 1659907712.335827}]}, "version": 35}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1659907712.3896246}]}, "version": 36}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Epoch: 0, Loss: 1.65, Accuracy: 0.40, Validation Accuracy: 0.44", "step": null, "ts": 1659907712.4785743}]}, "version": 37}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1659907712.5669587}]}, "version": 38}
+{"obj": {"type": "LogFloats", "path": ["train", "epoch", "loss"], "values": [{"value": 1.6473174307305933, "step": null, "ts": 1659907712.6563454}]}, "version": 39}
+{"obj": {"type": "LogFloats", "path": ["train", "epoch", "accuracy"], "values": [{"value": 0.40308839190628326, "step": null, "ts": 1659907712.7479599}]}, "version": 40}
+{"obj": {"type": "LogFloats", "path": ["train", "epoch", "inference"], "values": [{"value": 0.44468085106382976, "step": null, "ts": 1659907712.8361247}]}, "version": 41}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Finished Training", "step": null, "ts": 1659907712.9302893}]}, "version": 42}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1659907713.0263038}]}, "version": 43}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Shutting down background jobs, please wait a moment...\n", "step": null, "ts": 1659907713.12473}]}, "version": 44}
